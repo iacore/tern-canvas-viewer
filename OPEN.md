@@ -25,6 +25,13 @@ what a reader sees; this file says what is left to do.
   are not tuned.
 - **A dark-theme tldraw drawing renders in the light palette.** The file does
   not record the theme it was drawn in; there is no switch to pick one.
+- **A native whiteboard could hold these scenes instead of a picture.** Tern
+  0.8.4 exposes an undocumented window-only `cx.whiteboard` (`open`, `read`,
+  `edit`) over the canvas blocks of kind `canvas`, with shapes for rect,
+  ellipse, diamond, triangle, text, arrow, line, polygon, curve, ink,
+  highlight, image and group. Converting a scene into whiteboard edits would
+  make these files editable in Tern and give an export path back out. The API
+  is not in the published book, so it may change under the plugin.
 - **No automated test run.** `tests/sample.excalidraw` and
   `tests/sample.tldraw` are rendered by hand through a linked plugin and a
   headless Tern window; nothing asserts the output yet.
