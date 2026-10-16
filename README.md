@@ -128,4 +128,4 @@ and [1vav/embedded-editor-for-claude-code architecture.tldraw](https://github.co
 
 ## Licence
 
-MIT.
+BSD 2-Clause. See [COPYING.md](COPYING.md).
