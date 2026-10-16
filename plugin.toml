@@ -1,0 +1,14 @@
+schema = 1
+id = "canvas-viewer"
+name = "Canvas Viewer"
+version = "0.1.0"
+description = "Open .excalidraw and .tldraw drawings as a rendered image in a block."
+icon = "image"
+host = "host.luau"
+window = "window.luau"
+
+[[blocks]]
+id = "view"
+title = "Canvas Viewer"
+files = ["*.excalidraw", "*.tldraw"]
+palette = false

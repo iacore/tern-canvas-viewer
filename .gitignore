@@ -1,0 +1,4 @@
+target/
+shots/
+*.path
+tern.d.luau
